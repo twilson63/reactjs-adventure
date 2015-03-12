@@ -1,0 +1,21 @@
+{
+  "name": "reactjs-adventure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "runner.js",
+  "bin": {
+    "reactjs-adventure": "runner.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tom",
+  "license": "ISC",
+  "dependencies": {
+    "adventure": "^2.10.0",
+    "adventure-verify": "^2.2.0",
+    "jsdom": "^4.0.2",
+    "msee": "^0.1.1"
+  }
+}
