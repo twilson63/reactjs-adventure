@@ -5,17 +5,15 @@ var shop = adventure('reactjs-adventure');
 
 var problems = [
   'welcome',
-  'hello',
-  'setup',
-  'state',
-  'props',
-  'composition',
-  'mixins',
-  'html',
-  'server',
-  'client',
-  'socket-io',
-  'twitter'
+  'ex1-hello',
+  'ex2-input',
+  'ex3-header',
+  'ex4-main',
+  'ex5-input-events',
+  'ex6-flux',
+  'ex7-store',
+  'ex8-actions',
+  'ex9-fin'
 ];
 
 problems.forEach(function(problem) {

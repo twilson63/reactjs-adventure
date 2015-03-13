@@ -1,12 +1,9 @@
 var msee = require('msee');
 var verify = require('adventure-verify');
 var fs = require('fs');
-var path = require('path');
-var jsdom = require('jsdom');
-
 
 exports.problem = msee.parse(
-  fs.readFileSync(__dirname + '/hello.md', 'utf-8')
+  fs.readFileSync(__dirname + '/ex1-hello.md', 'utf-8')
 );
 
 exports.verify = function(args, cb) { cb(true); };
